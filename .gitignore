@@ -1,0 +1,57 @@
+# ── Bloqueio defensivo (belt-and-suspenders) ──
+# Nada confidencial deve chegar aqui, mas estes padrões garantem que
+# segredos/dados produtivos nunca sejam commitados por acidente.
+
+# Segredos / credenciais
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credential*
+client_secret*
+*token*.json
+service-account*.json
+
+# Dados produtivos / de clientes
+*.xlsx
+*.xls
+*.csv
+*.ret
+*.RET
+*.parquet
+*.duckdb
+*.sqlite
+*.db
+*.dump
+*.sql.gz
+backups/
+dados_origem/
+origens/
+
+# Sessões / artefatos pessoais
+qr*.json
+consent.json
+*.pdf
+
+# Ambiente / build
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+dist/
+build/
+.next/
+.pytest_cache/
+.cache/
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
