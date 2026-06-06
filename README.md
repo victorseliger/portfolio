@@ -1,5 +1,7 @@
 # Portfólio — Victor Seliger
 
+> 🌐 **Idioma:** **Português** · [English](en/README.md)
+
 > **Engenharia na fronteira entre regra de negócio e dado.**
 > Resolvo dores manuais de negócio com **automação + especificação bem feita** — de pipelines de
 > conciliação financeira a plataformas e IA aplicada em produção.
